@@ -3,7 +3,22 @@
         <tittle>Bienvenido a  Hyperblog 2.0</tittle>
         <link rel="stylesheet" href="css/styles.css" />
     </head>
+
     <body>
+<style>
+        .animated-text {
+            font-size: 40px;
+            font-weight: bold;
+            color: #4CAF50;
+            animation: bouncing 2s infinite;
+        }
+
+        @keyframes bouncing {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0); }
+        }
+    </style>
         <div id="container">
             <div id="cabecera">
                 Hyperblog <span id="tagline">
