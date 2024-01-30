@@ -33,7 +33,14 @@ body
 {
     font-size: 20px;
 }
-
+#Button
+{
+    width:70%
+    padding:1em;
+    text-align: left;
+    border: 1px solid #DDD;
+    margin: 0 auto;
+}
  &:hover {
             background-color: darken(#0052cc, 10%); 
  }
